@@ -3,8 +3,8 @@
 function wpb_custom_new_menu() {
   register_nav_menus(
     array(
-      'top-menu' => __( 'Top Menu' ),
-      'top-menu-left' => __( 'Top Menu Left' ),
+    'top-menu' => __( 'Top Menu' ),
+    'top-menu-left' => __( 'Top Menu Left' ),
 	  'top-menu-right' => __( 'Top Menu Right' ),
 	  'footer-menu-1' => __( 'Footer Menu 1' ),
 	  'footer-menu-2' => __( 'Footer Menu 2' )
